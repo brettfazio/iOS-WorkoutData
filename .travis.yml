@@ -1,0 +1,16 @@
+osx_image: xcode9.4
+language: objective-c
+rvm:
+- 2.4.1
+podfile: Podfile
+before_install:
+- bundle install
+- pod repo update
+- pod install
+script:
+- set -o pipefail && xcodebuild test -workspace WorkoutData.xcworkspace -scheme
+  WorkoutData -sdk iphonesimulator11.4 -destination 'name=iPhone SE,OS=11.4'
+  -enableCodeCoverage YES ONLY_ACTIVE_ARCH=YES | xcpretty
+- bundle exec danger
+after_success:
+- bash <(curl -s https://codecov.io/bash) -J 'Photos-BL'

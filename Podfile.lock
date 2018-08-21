@@ -1,0 +1,86 @@
+PODS:
+  - Alamofire (4.7.3)
+  - iOSSnapshotTestCase (3.0.0):
+    - iOSSnapshotTestCase/SwiftSupport (= 3.0.0)
+  - iOSSnapshotTestCase/Core (3.0.0)
+  - iOSSnapshotTestCase/SwiftSupport (3.0.0):
+    - iOSSnapshotTestCase/Core
+  - Nimble (7.1.3)
+  - Nimble-Snapshots (6.7.1):
+    - Nimble-Snapshots/Core (= 6.7.1)
+  - Nimble-Snapshots/Core (6.7.1):
+    - iOSSnapshotTestCase (~> 3.0)
+    - Nimble (~> 7.0)
+  - PromiseKit (6.3.4):
+    - PromiseKit/CorePromise (= 6.3.4)
+    - PromiseKit/Foundation (= 6.3.4)
+    - PromiseKit/UIKit (= 6.3.4)
+  - PromiseKit/CorePromise (6.3.4)
+  - PromiseKit/Foundation (6.3.4):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.3.4):
+    - PromiseKit/CorePromise
+  - Quick (1.3.1)
+  - Realm (3.7.5):
+    - Realm/Headers (= 3.7.5)
+  - Realm/Headers (3.7.5)
+  - RealmSwift (3.7.5):
+    - Realm (= 3.7.5)
+  - Reveal-SDK (16)
+  - SnapKit (4.0.0)
+  - Sourcery (0.13.1)
+  - SwiftLint (0.27.0)
+  - Swinject (2.4.1)
+  - SwinjectAutoregistration (2.1.1):
+    - Swinject (~> 2.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - Nimble (~> 7.1.3)
+  - Nimble-Snapshots (~> 6.7.1)
+  - PromiseKit (~> 6.3.4)
+  - Quick (~> 1.3.1)
+  - RealmSwift (~> 3.7)
+  - Reveal-SDK
+  - SnapKit (~> 4.0.0)
+  - Sourcery (~> 0.13)
+  - SwiftLint (~> 0.27)
+  - Swinject (~> 2.4.1)
+  - SwinjectAutoregistration (~> 2.1.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - iOSSnapshotTestCase
+    - Nimble
+    - Nimble-Snapshots
+    - PromiseKit
+    - Quick
+    - Realm
+    - RealmSwift
+    - Reveal-SDK
+    - SnapKit
+    - Sourcery
+    - SwiftLint
+    - Swinject
+    - SwinjectAutoregistration
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  iOSSnapshotTestCase: 23984ffe05289728d646cbb6a7a10b4fb1c93440
+  Nimble: 2839b01d1b31f6a6a7777a221f0d91cf52e8e27b
+  Nimble-Snapshots: 7ab1d5fd4a794b983805c6f6b8091fb00d772754
+  PromiseKit: e1425568123ec844a944c93f2bcb29d511d39cf5
+  Quick: d17304d58d0d169dd0bd1c6e5c28e3318de32a1a
+  Realm: c286caf4dbf346ce24aad49ca76c7ce622d4a082
+  RealmSwift: 2a9281e37d6de55f66f76254d49d28aeb1b729e4
+  Reveal-SDK: ed36bdbb3cbf90b94ae5da0dbcb3c7ae6738c51f
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  Sourcery: 9ef51b8777516f204d82996441f293813158d0d7
+  SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
+  Swinject: f7f15a9672e99328c1f07f277091087917215700
+  SwinjectAutoregistration: d06b56bd8f912b9fb9c59c15181342558a734b1b
+
+PODFILE CHECKSUM: f5c8cba355f6b185012ace66e9896dceb7433787
+
+COCOAPODS: 1.5.3
